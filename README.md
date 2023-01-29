@@ -14,7 +14,8 @@ The below install is for manual operation of the library. For the Pip install fr
 
 1. Install, using apt-get, the following items:
 libatlas-base-dev
-python-smbus
+python3-smbus
+## python-smbus is not correct for current versions of python, adjusted README.me to reflect this.
 i2c-tools
 
 2. Install remaining requirements using either:
